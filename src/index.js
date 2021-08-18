@@ -8,4 +8,4 @@ const divRoot = document.querySelector('#root');  //fa referencia al divRoot de 
 
 // console.log(divRoot);
 
-ReactDOM.render( <CounterApp value={ 1456 }/>, divRoot )  //cridem el objecte ReactDOM, seguit del metode render, que vol dir: renderitza o mostra això.
+ReactDOM.render( <CounterApp value={ 10 }/>, divRoot )  //cridem el objecte ReactDOM, seguit del metode render, que vol dir: renderitza o mostra això.
