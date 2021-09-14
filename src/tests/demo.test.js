@@ -1,8 +1,19 @@
-test( 'primera prueba', () => {
+describe('Pruebas en el archivo demo.test.js', () => {
 
-    const isActive = true;
+    test('deben ser iguales los string', () => {
 
-    if( isActive ) {
-        throw new Error ('No esta activo')
-    }
+        //1. inicialización
+        const mensaje = 'Hola Mundo';
+
+        //2. estímulo
+        const mensaje2 = 'Hola Mundo';
+
+        //3. Observar el comportamiento
+        expect( mensaje ).toBe( mensaje2 ); // tenen que ser iguales, tant el tipo com el text que conte.
+
+    })
+
+
 })
+
+
